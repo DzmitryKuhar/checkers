@@ -1,9 +1,6 @@
 # Compiled class file
 *.class
 
-# Log file
-*.log
-
 # BlueJ files
 *.ctxt
 
@@ -26,6 +23,7 @@ hs_err_pid*
 build/**
 .gradle/**
 out/**
+dist/**
 
 # Logs
 logs
