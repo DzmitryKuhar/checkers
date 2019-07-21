@@ -1,0 +1,119 @@
+{
+	"info": {
+		"_postman_id": "2d7f14d6-624b-4e19-b9d7-ad565c514da9",
+		"name": "Checkers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "registration one",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"dima1\"}"
+				},
+				"url": {
+					"raw": "localhost:8081/player/registration",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"player",
+						"registration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "registration two",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"dima2\"}"
+				},
+				"url": {
+					"raw": "localhost:8081/player/registration",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"player",
+						"registration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "join one",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/game/join?id=0",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"game",
+						"join"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "join two",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/game/join?id=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"game",
+						"join"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

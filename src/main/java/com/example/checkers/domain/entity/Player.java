@@ -1,5 +1,6 @@
-package com.example.checkers.game;
+package com.example.checkers.domain.entity;
 
+import com.example.checkers.game.Color;
 import lombok.Data;
 
 @Data
@@ -7,7 +8,7 @@ public class Player {
 
   private Integer id;
 
-  private String name;
+  private String username;
 
   private boolean isActive;
 
